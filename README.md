@@ -1,14 +1,14 @@
 # Getting Started
-Install Jest using `yarn`
+Install node modules using `yarn`
 
 ```bash
-yarn add --dev jest
+yarn install
 ```
 
 Or [`npm`](https://www.npmjs.com/package/jest):
 
 ```bash
-npm install --save-dev jest
+npm install
 ```
 ## Command to start
 
