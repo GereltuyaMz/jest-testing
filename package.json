@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "jest": "^27.2.4"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "jest-html-reporter": "^3.4.1"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ]
+  }
+}
