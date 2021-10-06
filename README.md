@@ -10,6 +10,12 @@ Or [`npm`](https://www.npmjs.com/package/jest):
 ```bash
 npm install --save-dev jest
 ```
+## Command to start
+
+```bash
+yarn test
+```
+
 ## To add HTML based test reports
 
 Add node package for jest-html-reporter using the below command.
